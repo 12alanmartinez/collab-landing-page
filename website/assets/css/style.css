@@ -1,3 +1,66 @@
 body{
     background: #BDBDBD;
 }
+
+
+.jumbotron{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F24244.jpg&f=1&nofb=1&ipt=d782ee37ab5fffba0983014d9212f5d1ba10a8dd0ad5414f14a5553be701aab7&ipo=image");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    background-size: cover;
+    
+}
+
+.text{
+    background: white;
+}.head1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+}
+.headimg{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.cardholder{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.maincard{
+    margin: 3rem;
+}
+
+.contact{
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.from{
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    width: 500px;
+}
